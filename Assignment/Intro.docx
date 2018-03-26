@@ -1,0 +1,9 @@
+# Project 2018  Programming and Scripting
+# Adarsha sachan
+
+Introduction Fisher’s Iris data set
+Refrence 1 https://en.wikipedia.org/wiki/Iris_flower_data_set
+Fisher's Iris data set introduced by the British statistician and biologist Ronald Fisher in his 1936 .
+The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample 
+the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to 
+distinguish the species from each other 
