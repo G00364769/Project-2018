@@ -3,7 +3,17 @@
 
 Introduction Fisher’s Iris data set
 Refrence 1 https://en.wikipedia.org/wiki/Iris_flower_data_set
+Refrence 2 https://www.techopedia.com/definition/32880/iris-flower-data-set
 Fisher's Iris data set introduced by the British statistician and biologist Ronald Fisher in his 1936 .
 The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample 
 the length and the width of the sepals and petals, in centimetres. Based on the combination of these four features, Fisher developed a linear discriminant model to 
-distinguish the species from each other 
+distinguish the species from each other.
+
+
+we have real data 3 species flower.
+1 irish Setosa
+2 irish Versicolor
+3 irish Virginica
+in the given attribute data 
+we have petal length and petal width and Sepal Length and Sepal Width
+Question What is sepal ,Petal Length and width
