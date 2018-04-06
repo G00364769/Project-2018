@@ -78,4 +78,5 @@ creat_coloum =['sepallength' , 'sepalWidth' , 'prtallength' , 'prtalwidth' , 'Fl
 read=pd.read_table('Data/irish.csv',sep=',',header=None,names=creat_coloum)
 read=read.groupby('Flowername').mean()
 read=read.groupby('Flowername').mean().plot.bar()
+'print(read)
 graph.show()
