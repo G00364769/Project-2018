@@ -1,6 +1,6 @@
 # adarsha sachan
 # i have build my algorithm that will tell whatsa flower name
-# and its without traing set
+# and its with dataset set analysis
 import pandas as pd
 import matplotlib.pyplot as graph
 while True:
@@ -61,12 +61,17 @@ if petalarea < 2.00 and Perimeter < 25.00:
   #print("this is Iris-Setos ")
   Flo="Iris-setosa"
   print("Based on my analysis this is",Flo)
-  #condition 2 
+   #condition 3
+elif (Perimeter < 33.00) and (petalarea  > 7.65) and (petalarea  < 9.00)  :
+  #print("this is ris- virginica ")
+  Flo=" 80% Iris-virginica and 20% Iris-versicolor "
+  print("Based on my analysis this is",Flo)
+ #condition 2 
 elif (Perimeter < 33.00) and (petalarea < 9.00) :
   #print("this is ris- virginica ")
   Flo="Iris-versicolor"
   print("Based on my analysis this is",Flo)
-  #condition 3
+  #condition 4
 else:
   Flo="Iris-virginica"
   print("Based on my analysis this is",Flo)
