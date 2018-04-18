@@ -3,8 +3,10 @@
 # and its with dataset set analysis
 import pandas as pd
 import matplotlib.pyplot as graph
+# Write a  true condition 
 while True:
   try:
+    # input condition for sepallength
     sepallength=float( input ("Please Enter the sepallength "))
     if sepallength < 8:
       #print ("success")
@@ -16,6 +18,7 @@ while True:
 
 while True:
   try:
+     # input condition for sepalWidth
     sepalWidth=float( input ("Please Enter the sepalWidth "))
     if sepalWidth < 5:
      # print ("success")
@@ -27,6 +30,7 @@ while True:
 
 while True:
   try:
+    # input condition for Petallength
     Petallength=float( input ("Please Enter the Petallength "))
     if Petallength <7:
       #print ("success")
@@ -38,6 +42,7 @@ while True:
 
 while True:
   try:
+    ## input condition for PetallWidth
     PetallWidth=float( input ("Please Enter the PetallWidth "))
     if PetallWidth < 3:
      # print ("success")
@@ -46,7 +51,7 @@ while True:
       print ("PetallWidth should be less than 3 Cm")
   except ValueError:
     print ("Not a Number")
-
+#using area formula get petalarea
 petalarea= (Petallength*PetallWidth)
 #petalarea=format(petalarea,'.2f')
 sepalarea=(sepallength*sepalWidth)
@@ -61,21 +66,21 @@ if petalarea < 2.00 and Perimeter < 25.00:
   #print("this is Iris-Setos ")
   Flo="Iris-setosa"
   print("Based on my analysis this is",Flo)
-   #condition 3
+   #condition 3 as per user story
 elif (Perimeter < 33.00) and (petalarea  > 7.65) and (petalarea  < 9.00)  :
   #print("this is ris- virginica ")
   Flo=" 80% Iris-virginica and 20% Iris-versicolor "
   print("Based on my analysis this is",Flo)
- #condition 2 
+ #condition 2 as per user story
 elif (Perimeter < 33.00) and (petalarea < 9.00) :
   #print("this is ris- virginica ")
   Flo="Iris-versicolor"
   print("Based on my analysis this is",Flo)
-  #condition 4
+  #condition 4 as per user story
 else:
   Flo="Iris-virginica"
   print("Based on my analysis this is",Flo)
-# creat colum for each row ,
+# creat colum for each row ,PetalArea,PerimeterArea
 creat_coloum =['sepallength' , 'sepalWidth' , 'petallength' , 'petalwidth' , 'Flowername','PetalArea', 'PerimeterArea']#,'SepalArea']
 # adding header and cloum
 read=pd.read_table('Data/irish.csv',sep=',',header=None,names=creat_coloum)
@@ -107,9 +112,9 @@ X=graph.scatter(Flo,sepallength,color=['r'],s=34,marker="*")
 y=graph.scatter(Flo,sepalWidth,color=['m'],s=34,marker="*")
 # x and y cordinate added lable
 graph.xlabel('Xcoordinate OF FLOWER')
-graph.ylabel('Ycoordinate OF FLOWER')
+graph.ylabel('Ycoordinate OF sepallength and sepalwidth')
 # added title
-graph.title('For Sepal record in Scatter ')
+graph.title('Input records are highlighting for sepallength and sepalwidth ')
 # in grf show legend
 graph.legend()
 graph.show()
@@ -120,8 +125,8 @@ s=graph.scatter(Flower,PetalY,color=['m'])
 X=graph.scatter(Flo,Petallength,color=['b'],s=34,marker="*")
 y=graph.scatter(Flo,PetallWidth,color=['c'],s=34,marker="*")
 graph.xlabel('Xcoordinate OF FLOWER')
-graph.ylabel('Ycoordinate OF FLOWER')
-graph.title('For Petal record in Scatter ')
+graph.ylabel('Ycoordinate OF Petal length and Petal width')
+graph.title('Input records are highlighting for Petallength and Petalwidth ')
 graph.legend()
 graph.show()
 # both record sepal and Petal as well my record but thay are diff mark
@@ -144,8 +149,8 @@ graph.show()
 t=graph.scatter(Flower,read['PerimeterArea'])
 t=graph.scatter(Flower,read['PetalArea'])
 #t=graph.scatter(Flower,read['SepalArea'])
-graph.xlabel('Xcoordinate OF FLOWER')
-graph.ylabel('Ycoordinate OF FLOWER')
-graph.title('For based on My logic  Scatter ')
+graph.xlabel('Xcoordinate of FLOWER Record')
+graph.ylabel('Ycoordinate of PerimeterArea and PetalArea')
+graph.title('Scatter graph based on PerimeterArea and PetalArea ')
 graph.legend()
 graph.show()
