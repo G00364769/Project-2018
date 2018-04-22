@@ -52,8 +52,10 @@ Currently I am representing in bar Graph for each flower looks as per below scre
 
 When I represent mean value in graph what I see based on each flower I can see X and Y axis my x is flower record and y is sepal length and width, petal length and width min and max value.
 Now I want build logic if user provides sepal length and width, petal length and width it gives flower name as output.
-I did my analysis in XL sheet and in graph 
-While analysis the data and graph I can see sepal length is less than 8 Cm and width is less than 5 Cm, Petal Length and width less than 7 and 3 in Cm for all the Data Set.
+I did my analysis in XL sheet and as well in graph 
+
+### While analysis the data and graph I can see sepal length is less than 8 Cm and width is less than 5 Cm, Petal Length and width less than 7 and 3 in Cm for irish Data Set.
+
 After analysis I came to below logic.
 Calculation algorithm data analysis as per mine
 What is perimeter???
@@ -95,7 +97,9 @@ If petal area is less than 2 and perimeter is less than 25 then it is Iris-Setos
 As I need how to find ris- virginica and ris- versicolor flower
 Formula for Algorithm
 Petal area = Petal Length * Petal Width
+
 Perimeter = 2(Petal Length +Petal Width + Sepal Length+ Sepal Width)
+
 ## Condition 2
  If perimeter is less than 33 and petal area less than 9 
 Versicolor flower
@@ -132,7 +136,7 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 
 ![capture9](https://user-images.githubusercontent.com/36301378/39094960-67709b36-4630-11e8-9644-d2be49f1595e.PNG)
 
-## [### using sklearn Library ####]
+## [### using sklearn Library predict flower species ####]
 
 ## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 Reference
@@ -154,7 +158,7 @@ Keeping last 60 entries for testing, rest for training
 Classifying using Decision Tree and create the model and..... 
 ## model  will save in desktop with \\finalized_model.sav name
 
-## Step6
+## Step6 prediction
 Check input record in build model it will predict flower species 0, 1, or 2
 Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
 
