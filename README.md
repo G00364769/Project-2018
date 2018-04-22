@@ -15,7 +15,6 @@ We have real data 3 species flower.
 In the given attribute data, we have petal length and petal width and Sepal Length and Sepal Width
 Question   what are sepal, Petal Length and width
 - https://www.youtube.com/watch?v=mE7MWa6N2Vc
-- https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?language=en 
 
 ## how to copy image in github
 https://www.youtube.com/watch?v=nvPOUdz5PL4
@@ -121,15 +120,16 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 ![capture9](https://user-images.githubusercontent.com/36301378/39094960-67709b36-4630-11e8-9644-d2be49f1595e.PNG)
 
 ## [### using sklearn Library predict flower species ####]
-## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
-##Reference
+
+#### Now I have extended this project using sklearn Library it has inbuilt Irish data set 
+## Reference
 - http://docs.python-guide.org/en/latest/scenarios/ml/
 - http://scikit-learn.org/stable/user_guide.html
 - https://www.python-course.eu/machine_learning_with_scikit.php
 - http://scikit-learn.org/stable/tutorial/basic/tutorial.html
 - http://www.pythonforbeginners.com/os/pythons-os-module
 
-#### Steps
+#### Following Steps for code
 - First read the data set
 - Read data set x and y where x is array of data and y is flower name 
 - Now using numpy I am picking randomly data 
@@ -138,8 +138,9 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 - model  will save in desktop with \\finalized_model.sav name
 - Check input record in build model it will predict flower species 0, 1, or 2
 - Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
+
 ### [###Project related Refrence###]
-Reference https://www.youtube.com/watch?v=khwJY8EeJtU 
+- https://www.youtube.com/watch?v=khwJY8EeJtU 
 In Cmd   Type pip install pandas 
 - https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
 ###### Group series using mapper (function by a series of columns.
