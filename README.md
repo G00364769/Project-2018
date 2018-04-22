@@ -1,9 +1,11 @@
 # Project 2018 Programming and Scripting
 # ADARSHA SACHAN   23/03/2108
-Introduction Fisher’s Iris data set
-Reference 1 https://en.wikipedia.org/wiki/Iris_flower_data_set
+#### Introduction Fisher’s Iris data set
+##### Reference 1 
+- https://en.wikipedia.org/wiki/Iris_flower_data_set
+- https://www.techopedia.com/definition/32880/iris-flower-data-set
 
-Reference 2 https://www.techopedia.com/definition/32880/iris-flower-data-set
+
 Fisher's Iris data set introduced by the British statistician and biologist Ronald Fisher in his 1936.
 This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample 
 The length, width of the sepals and petals, in centimeters, Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.
@@ -146,63 +148,52 @@ Reference
 #http://scikit-learn.org/stable/tutorial/basic/tutorial.html
 #http://www.pythonforbeginners.com/os/pythons-os-module
 
-## Step1
-First read the data set
-## Step2
-Read data set x and y where x is array of data and y is flower name 
-## Step3
-Now using numpy I am picking randomly data 
-## Step4
-Keeping last 60 entries for testing, rest for training
-## Step5
-Classifying using Decision Tree and create the model and..... 
-## model  will save in desktop with \\finalized_model.sav name
-
-## Step6 prediction
-Check input record in build model it will predict flower species 0, 1, or 2
-Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
-
-
-
-
-
-## [###Project related Refrence###]
+##### Steps
+- First read the data set
+- Read data set x and y where x is array of data and y is flower name 
+- Now using numpy I am picking randomly data 
+- Keeping last 60 entries for testing, rest for training
+- Classifying using Decision Tree and create the model and..... 
+- model  will save in desktop with \\finalized_model.sav name
+- Check input record in build model it will predict flower species 0, 1, or 2
+- Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
+### [###Project related Refrence###]
 
 Reference https://www.youtube.com/watch?v=khwJY8EeJtU 
 In Cmd   Type pip install pandas 
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
-### Group series using mapper (function by a series of columns.
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
-http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
-https://www.youtube.com/watch?v=wfTABU8VeoY
-### What is scatter graph?
-https://en.wikipedia.org/wiki/Scatter_plot
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
-https://plot.ly/python/line-and-scatter/
-### For showing the graph need below library
+- https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
+###### Group series using mapper (function by a series of columns.
+-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
+-http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
+-https://www.youtube.com/watch?v=wfTABU8VeoY
+###### What is scatter graph?
+- https://en.wikipedia.org/wiki/Scatter_plot
+- https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
+- https://plot.ly/python/line-and-scatter/
+###### For showing the graph need below library
 Import matplotlib.pyplot as Graph
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
-https://swcarpentry.github.io/python-novice-gapminder/09-plotting/
-http://pandas.pydata.org/pandas-docs/version/0.16.0/visualization.html
-## Create graph using panda dataframe
-https://www.youtube.com/watch?v=F6kmIpWWEdU
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
-## Colors
-https://matplotlib.org/2.0.2/api/colors_api.html
-## Legend
-https://matplotlib.org/users/legend_guide.html
+- https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
+- https://swcarpentry.github.io/python-novice-gapminder/09-plotting/
+- http://pandas.pydata.org/pandas-docs/version/0.16.0/visualization.html
+###### Create graph using panda dataframe
+- https://www.youtube.com/watch?v=F6kmIpWWEdU
+- https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
+###### Colors
+- https://matplotlib.org/2.0.2/api/colors_api.html
+###### Legend
+- https://matplotlib.org/users/legend_guide.html
 
-## what is Scikit algo is using 
-http://scikit-learn.org/stable/datasets/index.html
-https://matplotlib.org/users/pyplot_tutorial.html
-https://matplotlib.org/gallery/ticks_and_spines/tick-formatters.html
+###### what is Scikit algo is using 
+- http://scikit-learn.org/stable/datasets/index.html
+- https://matplotlib.org/users/pyplot_tutorial.html
+- https://matplotlib.org/gallery/ticks_and_spines/tick-formatters.html
 
-### numpy
-#http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+###### numpy
+- http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
 
-### pickle
-#http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
-### os
-#https://docs.python.org/3/library/pickle.html
+###### pickle
+- http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
+###### os
+- https://docs.python.org/3/library/pickle.html
 
 
