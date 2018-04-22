@@ -25,13 +25,11 @@ https://www.youtube.com/watch?v=nvPOUdz5PL4
 ### Download myproject.py in your local
 ### Execute myproject.py using command python myproject.py
 
-Based on my data analysis I am going to build mathematical way, while providing sepal, Petal length and width  it’s will tell me the flower name.
-I have written a code various way 
+Based on my data analysis I am going to build mathematical way and sklearn, while providing sepal, Petal length and width  it’s will tell me the flower name.
 My first Analysis and code 
 
 Project Name myproject.py 
 While running this project it will ask for Sepal, Petal (length and width) and based on code it will give flower name record as output
-The logic I have written it will work only for this data set.
 So my next opinion if I can represent this in Graph so I extend (myproject.py) project  
 In graph pattern
 ### Create the graphs 
