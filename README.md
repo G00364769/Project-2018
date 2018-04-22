@@ -144,9 +144,9 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 In Cmd   Type pip install pandas 
 - https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
 ###### Group series using mapper (function by a series of columns.
--https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
--http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
--https://www.youtube.com/watch?v=wfTABU8VeoY
+- https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
+- http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
+- https://www.youtube.com/watch?v=wfTABU8VeoY
 ###### What is scatter graph?
 - https://en.wikipedia.org/wiki/Scatter_plot
 - https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
