@@ -150,7 +150,7 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 
 ![capture9](https://user-images.githubusercontent.com/36301378/39094960-67709b36-4630-11e8-9644-d2be49f1595e.PNG)
 
-### using sklearn Library
+## [### using sklearn Library ####]
 
 ## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 Reference
@@ -174,7 +174,7 @@ Classifying using Decision Tree and create the model and model vale will save in
 Check input record in build model it will predict flower species 0, 1, or 2
 Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
 
-## Project related Refrence
+## [###Project related Refrence###]
 
 Reference https://www.youtube.com/watch?v=khwJY8EeJtU 
 In Cmd   Type pip install pandas 
