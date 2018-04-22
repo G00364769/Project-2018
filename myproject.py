@@ -222,6 +222,8 @@ print("Checking input record In build in model")
 loaded_model = pickle.load(open(filename, 'rb'))
 #predicted = loaded_model.predict([a,b,c,d].reshape(1, -1))
 predicted= loaded_model.predict([[sepallength,sepalWidth,Petallength,PetallWidth]])
+graph.hist(predicted)
+graph.show()
 print("predicted value form model set",predicted)
 if predicted == 0:
   print("prediction percentage is",accuracy,"Iris-setosa")
