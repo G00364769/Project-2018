@@ -14,3 +14,5 @@ In the given attribute data, we have petal length and petal width and Sepal Leng
 Question   what are sepal, Petal Length and width
 Reference 3   https://www.youtube.com/watch?v=mE7MWa6N2Vc
 https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?language=en  
+##how to copy image 
+-https://www.youtube.com/watch?v=nvPOUdz5PL4
