@@ -20,24 +20,6 @@ https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?langua
 https://www.youtube.com/watch?v=nvPOUdz5PL4
 
 ![capture0](https://user-images.githubusercontent.com/36301378/39094950-64351e2e-4630-11e8-83c5-e3d57c9845bf.PNG)
-Reference Link
-Install pandas
-Reference https://www.youtube.com/watch?v=khwJY8EeJtU 
-In Cmd   Type pip install pandas 
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
-Group series using mapper (function by a series of columns.
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
-http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
-https://www.youtube.com/watch?v=wfTABU8VeoY
-For showing the graph need below library
- Import matplotlib.pyplot as Graph
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
-https://swcarpentry.github.io/python-novice-gapminder/09-plotting/
-http://pandas.pydata.org/pandas-docs/version/0.16.0/visualization.html
-Create graph using panda dataframe
-https://www.youtube.com/watch?v=F6kmIpWWEdU
-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
-
 
 ## Research and Descriptive Analysis
 ### Download myproject.py in your local
