@@ -30,9 +30,9 @@ My first Analysis and code
 
 Project Name myproject.py 
 While running this project it will ask for Sepal, Petal (length and width) and based on code it will give flower name record as output
-So my next opinion if I can represent this in Graph so I extend (myproject.py) project  
-In graph pattern
-### Create the graphs 
+and if I can represent this in Graph so I extend (myproject.py) project  In graph pattern
+
+### Analysis before Creating the graphs 
 First I am reading the csv file in Table form so while reading table I am getting below record as per screenshot in that I can see it reads all 150 row and columns
 
 ![capture1](https://user-images.githubusercontent.com/36301378/39094951-6493fa16-4630-11e8-814e-e5e2fed8c98c.PNG)
