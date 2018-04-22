@@ -2,6 +2,7 @@
 # ADARSHA SACHAN   23/03/2108
 Introduction Fisher’s Iris data set
 Reference 1 https://en.wikipedia.org/wiki/Iris_flower_data_set
+
 Reference 2 https://www.techopedia.com/definition/32880/iris-flower-data-set
 Fisher's Iris data set introduced by the British statistician and biologist Ronald Fisher in his 1936.
 This data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample 
@@ -144,6 +145,8 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 
 ![capture9](https://user-images.githubusercontent.com/36301378/39094960-67709b36-4630-11e8-9644-d2be49f1595e.PNG)
 
+### using sklearn Library
+
 Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 Reference
 #http://docs.python-guide.org/en/latest/scenarios/ml/
@@ -151,17 +154,18 @@ Reference
 #https://www.python-course.eu/machine_learning_with_scikit.php
 #http://scikit-learn.org/stable/tutorial/basic/tutorial.html
 #http://www.pythonforbeginners.com/os/pythons-os-module
-Step1
+
+## Step1
 First read the data set
-Step2
+## Step2
 Read data set x and y where x is array of data and y is flower name 
-Step3
+## Step3
 Now using numpy I am picking randomly data 
-Step4
+## Step4
 Keeping last 60 entries for testing, rest for training
-Step5
+## Step5
 Classifying using Decision Tree and create the model and model vale will save in desktop with \\finalized_model.sav name
-Step6
+## Step6
 Check input record in build model it will predict flower species 0, 1, or 2
 Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
 
