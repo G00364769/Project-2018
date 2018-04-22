@@ -127,11 +127,11 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 ## [### using sklearn Library predict flower species ####]
 ## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 ##Reference
-#http://docs.python-guide.org/en/latest/scenarios/ml/
-#http://scikit-learn.org/stable/user_guide.html
-#https://www.python-course.eu/machine_learning_with_scikit.php
-#http://scikit-learn.org/stable/tutorial/basic/tutorial.html
-#http://www.pythonforbeginners.com/os/pythons-os-module
+- http://docs.python-guide.org/en/latest/scenarios/ml/
+- http://scikit-learn.org/stable/user_guide.html
+- https://www.python-course.eu/machine_learning_with_scikit.php
+- http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+- http://www.pythonforbeginners.com/os/pythons-os-module
 
 #### Steps
 - First read the data set
@@ -176,5 +176,3 @@ Import matplotlib.pyplot as Graph
 - http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
 ###### os
 - https://docs.python.org/3/library/pickle.html
-
-
