@@ -207,7 +207,7 @@ pred = clf.predict(InputTrainData)
 accuracy= (float(accuracy_score(pred, y_test))*100) #prediction accuracy
 print("prediction percentage",accuracy)
 # using DecisionTreeRegressor mim and max value
-tree = DecisionTreeRegressor(max_depth=10, random_state=0).fit(TrainData , TrainFlower)
+tree = DecisionTreeRegressor(max_depth=60, random_state=0).fit(TrainData , TrainFlower)
 model_dir = "\model"
 # this will creat path in destop
 Path = os.path.dirname(os.getcwd())
