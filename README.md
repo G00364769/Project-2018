@@ -80,11 +80,13 @@ https://homeschool.rebeccareid.com/flower-garden-reviewing-area-perimeter/
 Petal area = Petal Length * Petal Width
 Perimeter = 2(Petal Length +Petal Width + Sepal Length+ Sepal Width)
 
-I am writing logic in story in agile way 
-User Story 1
+I am writing logic in story in agile way
+## Subjective data analysis
+## User Story 1
 As a user I want to identify what is the flower name
 I want sepal, Petal Length and width so I can pass this info to my function.
-User story 2
+
+## User story 2
  As I need a full Irish Data set.
 I want to pass sepal, Petal Length and width in csv read search function.
 Irish data set I can copy from wiki or http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data copy from this link.
@@ -92,31 +94,34 @@ User story 3 NA
 As I need search logic functions.
 I want to write a search function when user will pass input, it look in database or csv file and return the result.
 If it dint match, Show the description that data not found
-User story 4
+
+## User story 4
 As I need 4 input value petal, sepal length and width?
 I want to write a function 
 While analysis the data I can see sepal length is less than 8 Cm and width is less than 5 Cm, Petal Length and width less than 7 and 3 in Cm for all the Data Set.
 So user can not provide any other input as per above petal, sepal length and width.
 Below user story will be working base on my algorithm data set
-User Story 5
+
+## User Story 5
 As I need how to find Iris-Setosa flower
 If any time petal area is less than 2 it’s Iris-Setosa
 If perimeter is less than 26 then 100 % it’s Iris-Setosa
-Condition 1
+
+## Condition 1
 If petal area is less than 2 and perimeter is less than 25 then it is Iris-Setosa
-User Story 6
+## User Story 6
 As I need how to find ris- virginica and ris- versicolor flower
 Formula for Algorithm
 Petal area = Petal Length * Petal Width
 Perimeter = 2(Petal Length +Petal Width + Sepal Length+ Sepal Width)
-Condition 2
+## Condition 2
  If perimeter is less than 33 and petal area less than 9 
 Versicolor flower
-Condition 3
+## Condition 3
 If perimeter is less than 33 and petal area less than 9 and greater than 7
 Than “80% Iris-Virginia and 20% Iris-versicolor”
 Else
-Condition 4
+## Condition 4
 Iris-virginica
 
 Conclusion 
@@ -147,7 +152,7 @@ Base on my logic I found flower and it represent in O Symbol for all coordinate 
 
 ### using sklearn Library
 
-Now I have extended this project using sklearn Library it has inbuilt Irish data set 
+## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 Reference
 #http://docs.python-guide.org/en/latest/scenarios/ml/
 #http://scikit-learn.org/stable/user_guide.html
@@ -169,5 +174,43 @@ Classifying using Decision Tree and create the model and model vale will save in
 Check input record in build model it will predict flower species 0, 1, or 2
 Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
 
+## Project related Refrence
+
+Reference https://www.youtube.com/watch?v=khwJY8EeJtU 
+In Cmd   Type pip install pandas 
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
+### Group series using mapper (function by a series of columns.
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html
+http://pandas.pydata.org/pandas-docs/version/0.16.2/generated/pandas.core.groupby.DataFrameGroupBy.plot.html
+https://www.youtube.com/watch?v=wfTABU8VeoY
+### What is scatter graph?
+https://en.wikipedia.org/wiki/Scatter_plot
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
+https://plot.ly/python/line-and-scatter/
+### For showing the graph need below library
+Import matplotlib.pyplot as Graph
+https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html
+https://swcarpentry.github.io/python-novice-gapminder/09-plotting/
+http://pandas.pydata.org/pandas-docs/version/0.16.0/visualization.html
+## Create graph using panda dataframe
+https://www.youtube.com/watch?v=F6kmIpWWEdU
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html
+## Colors
+https://matplotlib.org/2.0.2/api/colors_api.html
+## Legend
+https://matplotlib.org/users/legend_guide.html
+
+## what is Scikit algo is using 
+http://scikit-learn.org/stable/datasets/index.html
+https://matplotlib.org/users/pyplot_tutorial.html
+https://matplotlib.org/gallery/ticks_and_spines/tick-formatters.html
+
+### numpy
+#http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+
+### pickle
+#http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
+### os
+#https://docs.python.org/3/library/pickle.html
 
 
