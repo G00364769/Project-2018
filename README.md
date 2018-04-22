@@ -14,8 +14,8 @@ We have real data 3 species flower.
 3 Irish Virginica
 In the given attribute data, we have petal length and petal width and Sepal Length and Sepal Width
 Question   what are sepal, Petal Length and width
-Reference 3   https://www.youtube.com/watch?v=mE7MWa6N2Vc
-https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?language=en 
+- https://www.youtube.com/watch?v=mE7MWa6N2Vc
+- https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?language=en 
 
 ## how to copy image in github
 https://www.youtube.com/watch?v=nvPOUdz5PL4
@@ -69,10 +69,6 @@ I want sepal, Petal Length and width so I can pass this info to my function.
  As I need a full Irish Data set.
 I want to pass sepal, Petal Length and width in csv read search function.
 Irish data set I can copy from wiki or http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data copy from this link.
-User story 3 NA
-As I need search logic functions.
-I want to write a search function when user will pass input, it look in database or csv file and return the result.
-If it dint match, Show the description that data not found
 ### User story 4
 As I need 4 input value petal, sepal length and width?
 I want to write a function 
