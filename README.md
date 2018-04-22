@@ -21,6 +21,7 @@ https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux/transcript?langua
 ## how to copy image in github
 https://www.youtube.com/watch?v=nvPOUdz5PL4
 ![capture0](https://user-images.githubusercontent.com/36301378/39094950-64351e2e-4630-11e8-83c5-e3d57c9845bf.PNG)
+
 ## Research and Descriptive Analysis
 ### Download myproject.py in your local
 ### Execute myproject.py using command python myproject.py
@@ -32,13 +33,17 @@ and if I can represent this in Graph so I extend (myproject.py) project  In grap
 ### Analysis before Creating the graphs 
 First I am reading the csv file in Table form so while reading table I am getting below record as per screenshot in that I can see it reads all 150 row and columns
 ![capture1](https://user-images.githubusercontent.com/36301378/39094951-6493fa16-4630-11e8-814e-e5e2fed8c98c.PNG)
+
 But Column name was not there so I added Column after adding it looks likes, so now user can see index id and column  name .
 ![capture2](https://user-images.githubusercontent.com/36301378/39094952-64dae354-4630-11e8-8e3e-c5af0b14b997.PNG)
+
 After reading the index id and column I have created each flower mean value for Sepal length and width and Petal length and width
 ![capture3](https://user-images.githubusercontent.com/36301378/39094953-655d910a-4630-11e8-8d43-95c40b40d4dd.PNG)
+
 Once I got mean value so I can easily represent in graph 
 Currently I am representing in bar Graph for each flower looks as per below screen shoot
 ![capture4](https://user-images.githubusercontent.com/36301378/39094954-65a6a782-4630-11e8-9deb-bd934286f1a9.PNG)
+
 When I represent mean value in graph what I see based on each flower I can see X and Y axis my x is flower record and y is sepal length and width, petal length and width min and max value.
 Now I want build logic if user provides sepal length and width, petal length and width it gives flower name as output.
 I did my analysis in XL sheet and as well in graph 
@@ -99,12 +104,16 @@ Now I am representing sepal length and Sepal width, petal length and width, and 
 First graph for Sepal length and Sepal Width vs flower name  
 Base on my logic I found flower and input record for sepal length and width are representing in star symbol.
 ![capture7](https://user-images.githubusercontent.com/36301378/39094957-668f69fe-4630-11e8-9b13-5cf1ce16f65d.PNG)
+
 Second graph for Petal Length and Petal Width vs flower name
 Base on my logic I found flower and it represent in Star Symbol of my input record for petal length and petal width
+
 ![capture8](https://user-images.githubusercontent.com/36301378/39094959-6709b9d4-4630-11e8-8600-5388b560e144.PNG)
+
 Third graph for Sepal and Petal Both 
 Base on my logic I found flower and it represent in O Symbol for all coordinate of sepal length and width and petal length and width
 ![capture9](https://user-images.githubusercontent.com/36301378/39094960-67709b36-4630-11e8-9644-d2be49f1595e.PNG)
+
 ## [### using sklearn Library predict flower species ####]
 ## Now I have extended this project using sklearn Library it has inbuilt Irish data set 
 ##Reference
