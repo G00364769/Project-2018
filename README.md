@@ -171,7 +171,9 @@ Now using numpy I am picking randomly data
 ## Step4
 Keeping last 60 entries for testing, rest for training
 ## Step5
-Classifying using Decision Tree and create the model and ## model  will save in desktop with \\finalized_model.sav name
+Classifying using Decision Tree and create the model and..... 
+## model  will save in desktop with \\finalized_model.sav name
+
 ## Step6
 Check input record in build model it will predict flower species 0, 1, or 2
 Where o indicate Iris-setosa, 1 indicate Iris-versicolor, 3 indicate Iris-virginica
