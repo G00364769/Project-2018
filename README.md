@@ -171,5 +171,6 @@ Import matplotlib.pyplot as Graph
 - http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
 ###### pickle
 - http://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting
+- https://wiki.python.org/moin/UsingPickle
 ###### os
 - https://docs.python.org/3/library/pickle.html
