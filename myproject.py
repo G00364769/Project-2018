@@ -208,19 +208,23 @@ accuracy= (float(accuracy_score(pred, y_test))*100) #prediction accuracy
 print("prediction percentage",accuracy)
 # using DecisionTreeRegressor mim and max value
 tree = DecisionTreeRegressor(max_depth=60, random_state=0).fit(TrainData , TrainFlower)
-model_dir = "\model"
+#model_dir = "\model"
 # this will creat path in destop
 Path = os.path.dirname(os.getcwd())
 #print (Path)
 #SAV is a file extension used for the saved date of SPSS (Statistical Package for the Social Sciences).
 filename = Path + '\\finalized_model.sav'
 print("Creating model path in destop",filename)
+# Save a dictionary into a pickle file.
 pickle.dump(tree, open(filename, 'wb'))
+## save the model to disk
 filename =  Path + '\\finalized_model.sav'
 # providing user input record in model
 print("Checking input record In build in model") 
+## load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 #predicted = loaded_model.predict([a,b,c,d].reshape(1, -1))
+#pridicted as per input record
 predicted= loaded_model.predict([[sepallength,sepalWidth,Petallength,PetallWidth]])
 graph.hist(predicted)
 graph.show()
