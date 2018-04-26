@@ -14,7 +14,7 @@ while True:
     else: 
       print ("sepallength should be less than 8 Cm")
   except ValueError:
-    print ("Not a Number")
+    print ("Thats not a Number Please type numeric value")
 
 while True:
   try:
@@ -26,7 +26,7 @@ while True:
     else: 
       print ("sepalWidth should be less than 4 Cm")
   except ValueError:
-   print ("Not a Number")
+   print ("Thats not a Number Please type numeric value")
 
 while True:
   try:
@@ -38,7 +38,7 @@ while True:
     else: 
       print ("Petallength should be less than 7 Cm")
   except ValueError:
-    print ("Not a Number")
+    print ("Thats not a Number Please type numeric value")
 
 while True:
   try:
@@ -50,7 +50,7 @@ while True:
     else: 
       print ("PetallWidth should be less than 3 Cm")
   except ValueError:
-    print ("Not a Number")
+    print ("Thats not a Number Please type numeric value")
 #using area formula get petalarea
 petalarea= (Petallength*PetallWidth)
 #petalarea=format(petalarea,'.2f')
@@ -206,7 +206,7 @@ pred = clf.predict(InputTrainData)
 #print ("pred", pred )#predicted labels i.e flower species
 accuracy= (float(accuracy_score(pred, y_test))*100) #prediction accuracy
 print("prediction percentage",accuracy)
-# using DecisionTreeRegressor mim and max value
+# using DecisionTreeRegressor min and max value
 tree = DecisionTreeRegressor(max_depth=60, random_state=0).fit(TrainData , TrainFlower)
 #model_dir = "\model"
 # this will creat path in destop
