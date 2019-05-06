@@ -1,0 +1,23 @@
+		import word
+		def main():
+			while True:
+				Display_main()
+				choice = input("f")
+				
+				if choice =="x":
+					break
+				elif choice="1":
+					city=world.get_city(city)
+					print(city)
+			
+			
+
+def Display_main():
+    print("World DB")
+	print("---------")
+	print("MENUE")
+	print("=====")
+	print("1-View 15 Cities")
+
+if__name__=="__main__":
+    main()
