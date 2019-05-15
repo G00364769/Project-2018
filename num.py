@@ -1,4 +1,5 @@
 import world
+import mongo
 def main():
 	Display_main()
 	while True:
@@ -82,6 +83,34 @@ def main():
 			Display_main()
             #except Exception as error:
                 #print("Error ",error)
+				
+		elif (choice=="4"):
+			print("Show cars by Engine Size")
+			print("--------------")
+			engine=float(input("Engine Size:"))
+			#engine=str(round(engine, 2))
+			#try:
+            
+			test=mongo.getengsize(engine)
+			#for eg in test:
+				#print(eg["_id"],"|",eg["reg"],"|",eg["engineSize"])
+			Display_main()
+			#except Exception as error:
+				#print("Error ",error)
+				
+		elif (choice=="5"):
+			print("Add new car")
+			print("--------------")
+			id=input("_ids:")
+			reg=input("Enter reg:")
+			engine=float(input("Engine Size:"))
+			#engine=str(round(engine, 2))
+			#try:
+            
+			test=mongo.getcar(id,reg,engine)
+			
+			Display_main()
+			
 				
 				###############6###################
 		elif (choice=="6"):
